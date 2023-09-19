@@ -1,0 +1,18 @@
+Configuração:
+● git config --global user.name “<seu_nome>”: configura o nome do usuário
+● git config --global user.email “<seu_email>”: configura o email do usuário
+● git config --global init.defaultBranch <nome_do_branch>: define o nome padrão do branch
+● git config --global --list = mostra as configurações globais
+
+Inicialização e Clonagem:
+● git init: inicializa um repositório Git local
+● git clone <URL_do_repositorio>: clona um repositório remoto para o diretório atual
+● git clone <URL_do_repositorio><novo_nome_do_repo_clonado>: clona um repositório remoto para o diretório atual com um nome diferente
+
+Gerenciamento de Alterações:
+● git status: exibe o status atual do repositório
+● git add <arquivo>: adiciona um arquivo específico para a área de stage
+● git add . : adiciona todos os arquivos modificados para a área de stage
+● git commit -m “<mensagem_do_commit>”: cria um novo commit com as alterações adicionadas
+● git reset --soft <hash do arquivo>: retorna ao commit inicial
+● git restore <arquivo>: descarta as alterações em um arquivo específico
