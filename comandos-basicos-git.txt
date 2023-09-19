@@ -16,3 +16,25 @@ Gerenciamento de Alterações:
 ● git commit -m “<mensagem_do_commit>”: cria um novo commit com as alterações adicionadas
 ● git reset --soft <hash do arquivo>: retorna ao commit inicial
 ● git restore <arquivo>: descarta as alterações em um arquivo específico
+
+Gerenciamento de Branches:
+● git branch: lista todos os branches locais
+● git branch -M main:  muda da master para a main
+● git branch <nome_do_branch>: cria um novo branch
+● git checkout <nome_do_branch>: alterna para um branch específico
+● git merge <nome_do_branch>: mescla um branch ao branch atual
+● git branch -d <nome_do_branch>: exclui um branch
+
+Gerenciamento Remoto:
+● git remote add <nome_do_remoto> <URL_do_repositorio>: adiciona um repositório remoto
+● git push <nome_do_remoto> <nome_do_branch>: envia as alterações locais para um
+
+repositório remoto
+● git pull <nome_do_remoto> <nome_do_branch>: puxa as alterações de um repositório remoto 
+para o repositório local
+● git fetch: busca as alterações de todos os remotos, mas não as mescla
+
+Histórico e Visualização:
+● git log: exibe o histórico de commits
+● git log --oneline: exibe o histórico de commits em formato resumido
+● git diff: exibe as diferenças entre os arquivos modificados e o último commi
